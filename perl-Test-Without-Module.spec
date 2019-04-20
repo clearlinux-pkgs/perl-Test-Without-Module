@@ -4,10 +4,10 @@
 #
 Name     : perl-Test-Without-Module
 Version  : 0.20
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/C/CO/CORION/Test-Without-Module-0.20.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/C/CO/CORION/Test-Without-Module-0.20.tar.gz
-Summary  : 'Test fallback behaviour in absence of modules'
+Summary  : Test::Without::Module - Test fallback behaviour in absence of modules
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 BuildRequires : buildreq-cpan
@@ -22,6 +22,7 @@ SYNOPSIS
 Summary: dev components for the perl-Test-Without-Module package.
 Group: Development
 Provides: perl-Test-Without-Module-devel = %{version}-%{release}
+Requires: perl-Test-Without-Module = %{version}-%{release}
 
 %description dev
 dev components for the perl-Test-Without-Module package.
