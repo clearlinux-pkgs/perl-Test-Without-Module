@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-Without-Module
 Version  : 0.20
-Release  : 15
+Release  : 16
 URL      : https://cpan.metacpan.org/authors/id/C/CO/CORION/Test-Without-Module-0.20.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/C/CO/CORION/Test-Without-Module-0.20.tar.gz
 Summary  : Test::Without::Module - Test fallback behaviour in absence of modules
