@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-Without-Module
 Version  : 0.20
-Release  : 17
+Release  : 18
 URL      : https://cpan.metacpan.org/authors/id/C/CO/CORION/Test-Without-Module-0.20.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/C/CO/CORION/Test-Without-Module-0.20.tar.gz
 Summary  : 'Test fallback behaviour in absence of modules'
@@ -83,4 +83,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/Test/Without/Module.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Test/Without/Module.pm
