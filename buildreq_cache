@@ -1,2 +1,3 @@
-0.20
+0.21
 perl(Digest::MD5)
+perl(Test::More)
