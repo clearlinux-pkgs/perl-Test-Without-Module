@@ -6,10 +6,10 @@
 # autospec commit: b858a2a
 #
 Name     : perl-Test-Without-Module
-Version  : 0.22
-Release  : 34
-URL      : https://cpan.metacpan.org/authors/id/C/CO/CORION/Test-Without-Module-0.22.tar.gz
-Source0  : https://cpan.metacpan.org/authors/id/C/CO/CORION/Test-Without-Module-0.22.tar.gz
+Version  : 0.23
+Release  : 35
+URL      : https://cpan.metacpan.org/authors/id/C/CO/CORION/Test-Without-Module-0.23.tar.gz
+Source0  : https://cpan.metacpan.org/authors/id/C/CO/CORION/Test-Without-Module-0.23.tar.gz
 Summary  : 'Test fallback behaviour in absence of modules'
 Group    : Development/Tools
 License  : Artistic-2.0
@@ -45,10 +45,10 @@ perl components for the perl-Test-Without-Module package.
 
 
 %prep
-%setup -q -n Test-Without-Module-0.22
-cd %{_builddir}/Test-Without-Module-0.22
+%setup -q -n Test-Without-Module-0.23
+cd %{_builddir}/Test-Without-Module-0.23
 pushd ..
-cp -a Test-Without-Module-0.22 buildavx2
+cp -a Test-Without-Module-0.23 buildavx2
 popd
 
 %build
